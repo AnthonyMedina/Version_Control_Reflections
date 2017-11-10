@@ -33,6 +33,10 @@ If a user wanted to make an experimental change to the project, they could
 create a new branch in order to maintain a working version on the master branch.
 
 5. How do the diagrams help you visualise the branch structure?
+Viewing diagrams by git log --graph (and optionally --oneline) [branch names]
+allows me to see how different commits on different branches are related to one
+another. Specifically, it allows me to see when each branch was created and
+splits from its parent branch.
 
 6. What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
