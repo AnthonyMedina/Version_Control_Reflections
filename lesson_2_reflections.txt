@@ -40,6 +40,11 @@ splits from its parent branch.
 
 6. What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+The result of merging two branches together is that all the commits from both
+files are contained in a single branch with the most recent commit combining
+both all the changes since the initial branch was split. It is represented in a
+diagram like that because it demonstrates where each commit comes from (its
+parent) and therefore can be accessed from which other commits.
 
 7. What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
