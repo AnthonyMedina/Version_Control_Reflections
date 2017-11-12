@@ -6,6 +6,11 @@ are contributing to a repository, it would be useful to create a remote reposito
 2. Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
+I might always want to pull changes manually as this gives me more control over
+the local code. If I was part way through resolving a bug or adding a feature
+locally, I would want to complete it before pulling a change somebody else had
+made.
+
 3. Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
