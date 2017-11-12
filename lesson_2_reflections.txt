@@ -48,3 +48,8 @@ parent) and therefore can be accessed from which other commits.
 
 7. What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+Pros of automatic merging:
++ When there are no conflicts, it is much faster to merge automatically.
++ Easier to automatically merge.
+Cons of automatically merging:
+- When Git automatically merges two branches, it could possibly lead to errors.
