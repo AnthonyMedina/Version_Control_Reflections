@@ -1,55 +1,67 @@
 1. What happens when you initialise a repository? Why do you need to do it?
-When you initialise a repository, with git init, a .git file is created in the working directory.
-You can do this in order to begin a Git project. At first, the .git file will not track anything.
-At the moment it is effectively an empty repository.
 
-2. How is the staging area different from the working directory and the repository?
-What value do you think it offers?
-The working directory is the folder location currently being operated in.
-The repository contains the history of all the changes made to the files committed to it.
-The staging are acts as an intermediary to allow users to have greater control over what files
-and changes are committed to a repository. This enables users to commit only one logical change
-at a time.
+  When you initialise a repository, with git init, a .git file is created in the
+  working directory. You can do this in order to begin a Git project. At first,
+  the .git file will not track anything. At the moment it is effectively an
+  empty repository.
+
+2. How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+  The working directory is the folder location currently being operated in. The
+  repository contains the history of all the changes made to the files committed
+  to it. The staging are acts as an intermediary to allow users to have greater
+  control over what files and changes are committed to a repository. This
+  enables users to commit only one logical change at a time.
 
 3. How can you use the staging area to make sure you have one commit per logical
 change?
-The staging area allows a user to commit each files' changes separately. If a user
-makes two logical changes in two separate files, they can commit the files one at a time.
-Use git status to check what files are in the staging area.
-Use git add to add a file to the staging area.
-Use git diff (with no arguments) to compare changes between the working directory and the
-staging area.
-Use git diff --staged to compare changes between the most recent commit and the staging area.
-By using these commands to see the differences between versions, users can check that each commit
-they make is part of one logical change.
 
-4. What are some situations when branches would be helpful in keeping your history
-organised? How would branches help?
-If a user wanted to create a different version of a project that is not a natural
-advancement of itself, it would be helpful to use git branch [new branch name].
-For example, translating a website into a different language.
-This would help keep the master branch unaffected by the changes.
-If a user wanted to make an experimental change to the project, they could
-create a new branch in order to maintain a working version on the master branch.
+  The staging area allows a user to commit each files' changes separately. If a
+  user makes two logical changes in two separate files, they can commit the
+  files one at a time. Use git status to check what files are in the staging
+  area.
+  Use git add to add a file to the staging area.
+  Use git diff (with no arguments) to compare changes between the working
+  directory and the staging area.
+  Use git diff --staged to compare changes between the most recent commit and
+  the staging area.
+  By using these commands to see the differences between versions, users can
+  check that each commit they make is part of one logical change.
+
+4. What are some situations when branches would be helpful in keeping your
+history organised? How would branches help?
+
+  If a user wanted to create a different version of a project that is not a
+  natural advancement of itself, it would be helpful to use git branch [new
+  branch name]. For example, translating a website into a different language.
+  This would help keep the master branch unaffected by the changes.If a user
+  wanted to make an experimental change to the project, they could create a new
+  branch in order to maintain a working version on the master branch.
 
 5. How do the diagrams help you visualise the branch structure?
-Viewing diagrams by git log --graph (and optionally --oneline) [branch names]
-allows me to see how different commits on different branches are related to one
-another. Specifically, it allows me to see when each branch was created and
-splits from its parent branch.
 
-6. What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
-The result of merging two branches together is that all the commits from both
-files are contained in a single branch with the most recent commit combining
-both all the changes since the initial branch was split. It is represented in a
-diagram like that because it demonstrates where each commit comes from (its
-parent) and therefore can be accessed from which other commits.
+  Viewing diagrams by git log --graph (and optionally --oneline) [branch names]
+  allows me to see how different commits on different branches are related to
+  one another. Specifically, it allows me to see when each branch was created
+  and splits from its parent branch.
+
+6. What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+
+  The result of merging two branches together is that all the commits from both
+  files are contained in a single branch with the most recent commit combining
+  both all the changes since the initial branch was split. It is represented in
+  a diagram like that because it demonstrates where each commit comes from (its
+  parent) and therefore can be accessed from which other commits.
 
 7. What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
-Pros of automatic merging:
-+ When there are no conflicts, it is much faster to merge automatically.
-+ Easier to automatically merge.
-Cons of automatically merging:
-- When Git automatically merges two branches, it could possibly lead to errors.
+
+  Pros of automatic merging:
+    + When there are no conflicts, it is much faster to merge automatically.
+    + Easier to automatically merge.
+
+  Cons of automatically merging:
+    - When Git automatically merges two branches, it could possibly lead to
+    errors.
