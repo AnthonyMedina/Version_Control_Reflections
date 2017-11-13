@@ -1,25 +1,50 @@
-1. How did viewing a diff between two versions of a file help me see the bug that was introduced?
-It showed any lines that had been changed between the two files.
-I could then compare any line that had been changed with the previous version.
+1. How did viewing a diff between two versions of a file help me see the bug
+that was introduced?
 
-2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
-It would help me to find mistakes (or changes that did not work) faster, especially with larger files or projects.
+  It showed any lines that had been changed between the two files.
+  I could then compare any line that had been changed with the previous version.
 
-3. What do you think are the pros and cons of manually choosing when to create a commit,
-like you do in , vs having versions automatically saved, like Google Docs does?
-Manually saving makes it easier to group changes by idea, therefore it is easier to identify which commit to review if something in the code breaks.
-Automatically saving will not rely on a user to remember to save the file.
+2. How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
 
-4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
-Git etc. users have several interlinked files that rely upon each other to function properly, whereas any changes in something like Google Docs usually has no effect on any other files.
+  It would help me to find mistakes (or changes that did not work) faster,
+  especially with larger files or projects.
+
+3. What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+  Manually saving makes it easier to group changes by idea, therefore it is
+  easier to identify which commit to review if something in the code breaks.
+  Automatically saving will not rely on a user to remember to save the file.
+
+4. Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each file
+separately?
+
+  Git etc. users have several interlinked files that rely upon each other to
+  function properly, whereas any changes in something like Google Docs usually
+  has no effect on any other files.
 
 
-5. How can you use the commands Git log and Git diff to view the history of files?
-In the command line (when Git is installed) the command "Git log" displays all the different commits in the current Git repository.
-Each commit has a unique commit number. You can then compare two different commits by using the Git diff command in conjunction with the unique commit numbers.
+5. How can you use the commands Git log and Git diff to view the history of
+files?
 
-6. How might using version control make you more confident to make changes that could break something?
-With the security of being able to revert to previous commits in a repository, you can make any changes without fear of losing all previous progress or spending hours finding the offending error.
+  In the command line (when Git is installed) the command "Git log" displays all
+  the different commits in the current Git repository.Each commit has a unique
+  commit number. You can then compare two different commits by using the Git
+  diff command in conjunction with the unique commit numbers.
 
-7. Now that you have your workspace set up, what do you want to try using Git for?
-Now that I have set up my workspace, I will use Git to better keep track of the changes I make to any of my projects. This should allow me to make bigger changes to my code without me losing what I have done previously.
+6. How might using version control make you more confident to make changes that
+could break something?
+
+  With the security of being able to revert to previous commits in a repository,
+  you can make any changes without fear of losing all previous progress or
+  spending hours finding the offending error.
+
+7. Now that you have your workspace set up, what do you want to try using Git
+for?
+
+  Now that I have set up my workspace, I will use Git to better keep track of
+  the changes I make to any of my projects. This should allow me to make bigger
+  changes to my code without me losing what I have done previously.
