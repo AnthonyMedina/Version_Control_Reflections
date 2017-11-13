@@ -1,52 +1,54 @@
-1. When would you want to create a remote repository rather than keeping all your work local?
+1. When would you want to create a remote repository rather than keeping all
+your work local?
 
-When working from several computers, either from work and home, or when several different users
-are contributing to a repository, it would be useful to create a remote repository.
+  When working from several computers, either from work and home, or when
+  several different users are contributing to a repository, it would be useful
+  to create a remote repository.
 
 2. Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-I might always want to pull changes manually as this gives me more control over
-the local code. If I was part way through resolving a bug or adding a feature
-locally, I would want to complete it before pulling a change somebody else had
-made.
+  I might always want to pull changes manually as this gives me more control
+  over the local code. If I was part way through resolving a bug or adding a
+  feature locally, I would want to complete it before pulling a change somebody
+  else had made.
 
 3. Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-Clones are a copy of a repository, either from a local or remote machine.
-Forks are like clones but only available when copying a repository from GitHub
-to GitHub. The forked version will allow the user to make changes to the content
-without altering the original. It will also point back to the original repo.
-Branches, however, are part of the same repo and can be created locally or
-on a remote machine. They allow users to work on different features without
-damaging the working code. It can also allow different users to work on the same
-project and merge their progress together at an appropriate point.
+  Clones are a copy of a repository, either from a local or remote machine.
+  Forks are like clones but only available when copying a repository from GitHub
+  to GitHub. The forked version will allow the user to make changes to the
+  content without altering the original. It will also point back to the original
+  repo. Branches, however, are part of the same repo and can be created locally
+  or on a remote machine. They allow users to work on different features without
+  damaging the working code. It can also allow different users to work on the
+  same project and merge their progress together at an appropriate point.
 
 4. What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-The benefit is that if a user were to be working offline for a period of time
-but was not ready to merge her/his content with the last known state of the
-remote, they would be able to continue working and merge with the origin/master
-at a later time.
+  The benefit is that if a user were to be working offline for a period of time
+  but was not ready to merge her/his content with the last known state of the
+  remote, they would be able to continue working and merge with the origin/
+  master at a later time.
 
 5. How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-To collaborate without using Git or GitHub, I would use a shared folder similar
-to Dropbox. This would be advantageous in that it is easier to learn to control
-Dropbox. However, using this would make it much harder to keep track of the
-changes made to the files. It would also make it more difficult to merge files
-if people had been working on the same ones offline.
+  To collaborate without using Git or GitHub, I would use a shared folder
+  similar to Dropbox. This would be advantageous in that it is easier to learn
+  to control Dropbox. However, using this would make it much harder to keep
+  track of the changes made to the files. It would also make it more difficult
+  to merge files if people had been working on the same ones offline.
 
-6. When would you want to make changes in a separate branch rather than directly in
-master?  What benefits does each approach have?
+6. When would you want to make changes in a separate branch rather than directly
+in master?  What benefits does each approach have?
 
-I would want to make changes in a separate branch when I am adding larger or
-more experimental features to a project. This would allow me to maintain a
-working version of the code that is easily accessible at all times. I would also
-be more likely to make changes in a separate branch when working in a team as
-this would allow the team leader to review pull requests more clearly. Working
-directly on the master branch could be quicker as there is no need to go through
-the steps of merge/pull requests etc.
+  I would want to make changes in a separate branch when I am adding larger or
+  more experimental features to a project. This would allow me to maintain a
+  working version of the code that is easily accessible at all times. I would
+  also be more likely to make changes in a separate branch when working in a
+  team as this would allow the team leader to review pull requests more clearly.
+  Working directly on the master branch could be quicker as there is no need to
+  go through the steps of merge/pull requests etc.
