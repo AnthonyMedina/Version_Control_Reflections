@@ -42,3 +42,11 @@ if people had been working on the same ones offline.
 
 6. When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
+
+I would want to make changes in a separate branch when I am adding larger or
+more experimental features to a project. This would allow me to maintain a
+working version of the code that is easily accessible at all times. I would also
+be more likely to make changes in a separate branch when working in a team as
+this would allow the team leader to review pull requests more clearly. Working
+directly on the master branch could be quicker as there is no need to go through
+the steps of merge/pull requests etc.
