@@ -26,6 +26,11 @@ project and merge their progress together at an appropriate point.
 4. What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
+The benefit is that if a user were to be working offline for a period of time
+but was not ready to merge her/his content with the last known state of the
+remote, they would be able to continue working and merge with the origin/master
+at a later time.
+
 5. How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
